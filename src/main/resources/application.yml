@@ -1,0 +1,26 @@
+#Micronaut
+micronaut:
+  application:
+    name: rentEngine
+  server:
+#Cors
+    cors:
+      enabled: true
+    port: 8085
+ #Actuator
+  endpoints:
+    health:
+      enabled: true
+#Cassandra
+cassandra:
+  default:
+    advanced:
+      metadata:
+        schema:
+          enabled: false
+    basic:
+      contact-points:
+        - "127.17.0.2:9042"
+      port: 9042
+      load-balancing-policy:
+        local-datacenter: datacenter1
