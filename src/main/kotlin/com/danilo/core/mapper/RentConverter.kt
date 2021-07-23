@@ -3,7 +3,6 @@ package com.danilo.core.mapper
 import com.danilo.core.model.Rent
 import com.danilo.database.entity.RentEntity
 import com.danilo.entrypoint.dto.RentDto
-import java.util.stream.Collectors
 import kotlin.streams.toList
 
 class RentConverter {

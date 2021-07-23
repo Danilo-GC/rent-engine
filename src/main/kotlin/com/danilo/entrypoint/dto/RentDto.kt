@@ -7,5 +7,5 @@ data class RentDto(
     val id: UUID? = null,
     val price: BigDecimal = BigDecimal.ZERO,
     val vehicle: String? = "",
-    val brand: String? = ""
-    )
+    val brand: String? = "",
+)
